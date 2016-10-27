@@ -1,0 +1,67 @@
+body{
+	font-family: 'Helvetica', sans-serif;
+}
+
+.containerbox{
+	display:flex;
+	flex-direction: row;
+}
+
+header{
+	justify-content: center;
+}
+
+.red{
+	border: 20px solid red;
+}
+
+.blue{
+	border: 20px solid blue;
+}
+
+footer{
+	justify-content: center;
+	padding: 30px;
+}
+
+.icons{
+    font-size: 30px;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.ion-social-twitter{
+	background: #1E90FF;
+}
+
+.ion-social-googleplus{
+	background: #FF0000;
+}
+
+.ion-social-facebook{
+	background: #191970;
+}
+
+.ion-social-dribbble{
+	background: #FF00FF;
+}
+
+.ion-social-vimeo{
+	background: #00FF7F;
+}
+
+.ion-social-rss{
+	background: #FF4500;
+}
+
+@media screen and (max-width: 750px){
+	.containerbox {
+		display: flex;
+		flex-flow: row wrap;
+	}
